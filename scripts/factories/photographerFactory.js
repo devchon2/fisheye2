@@ -1,7 +1,7 @@
 function photographerFactory(data) {
   //récupérer les données du photographe
   const { name, id, city, country, tagline, price, portrait } = data;
-  const picture = `assets/photographers/${portrait}`;
+  const picture = `./assets/photographers/${portrait}`;
   const user = id;
 
 
@@ -73,7 +73,7 @@ function photographerFactory(data) {
   function getUserPageDOM() {
     //Création de la page du photographe
 
-    const picture = `assets/photographers/${portrait}`;
+    const picture = `./assets/photographers/${portrait}`;
     //Création du container photographe
     const UserInfosContainer = document.createElement("figure");
     UserInfosContainer.classList.add("photographContainer");
