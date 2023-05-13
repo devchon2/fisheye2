@@ -1,5 +1,5 @@
 import { photographerFactory } from "../factories/photographerFactory";
-import { get_Datas } from "../utils/get_datas";
+import { get_Datas } from "../utils/get_datas.js";
 
 
 
