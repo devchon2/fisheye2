@@ -4,7 +4,7 @@ function photographerFactory(data) {
   const picture = `assets/photographers/${portrait}`;
   const user = id;
 
-  
+
   function getUserCardDOM() {
     // Création des cartes
     const article = document.createElement("article");
