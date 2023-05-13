@@ -4,10 +4,7 @@ function photographerFactory(data) {
   const picture = `assets/photographers/${portrait}`;
   const user = id;
 
-  function get_pricing() {
-    return price;
-  }
-
+  
   function getUserCardDOM() {
     // Création des cartes
     const article = document.createElement("article");
