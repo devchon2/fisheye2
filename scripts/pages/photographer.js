@@ -1,8 +1,8 @@
 // Importer la fonction photographerFactory() du fichier photographerFactory.js
-import { photographerFactory } from "../factories/photographerFactory.js";
+import { photographerFactory } from "/scripts/factories/photographerFactory.js";
 
 // Importer la fonction MediaFactory() du fichier mediaFactory.js
-import { MediaFactory } from "../factories/mediaFactory.js";
+import { MediaFactory } from "/scripts/factories/mediaFactory.js";
 
 // Importer la fonction getPhotographers() du fichier photographerFactory.js
 import { get_Datas } from "../utils/get_datas.js";
