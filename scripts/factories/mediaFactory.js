@@ -65,7 +65,7 @@ class Image extends Media {
   }
 
   get_Media_Lightbox_DOM(name) {
-    const path = `/assets/images/${name}/${this.image}`;
+    const path = `./assets/images/${name}/${this.image}`;
 
     //Création des éléments du DOM
     const lightboxMediaCard = document.createElement("figure");
@@ -100,7 +100,7 @@ class Video extends Media {
   }
 
   get_Media_Card_DOM(name) {
-    const path = `/assets/images/${name}/${this.video}`;
+    const path = `./assets/images/${name}/${this.video}`;
 
     //Création des éléments du DOM
     const mediaCard = document.createElement("article");
@@ -146,7 +146,7 @@ class Video extends Media {
   }
 
   get_Media_Lightbox_DOM(name) {
-    const path = `/assets/images/${name}/${this.video}`;
+    const path = `./assets/images/${name}/${this.video}`;
 
     //Création des éléments du DOM
     const lightboxMediaCard = document.createElement("figure");
