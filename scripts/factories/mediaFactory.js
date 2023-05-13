@@ -17,7 +17,7 @@ class Image extends Media {
   }
 
   get_Media_Card_DOM(name) {
-    const path = `/assets/images/${name}/${this.image}`;
+    const path = `./assets/images/${name}/${this.image}`;
 
     //Création des éléments du DOM
     const mediaCard = document.createElement("article");
