@@ -65,7 +65,7 @@ class Image extends Media {
   }
 
   get_Media_Lightbox_DOM(name) {
-    const path = `./assets/images/${name}/${this.image}`;
+    const path = `assets/images/${name}/${this.image}`;
 
     //Création des éléments du DOM
     const lightboxMediaCard = document.createElement("figure");
